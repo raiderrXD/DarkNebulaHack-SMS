@@ -15,16 +15,12 @@ for attribute in dir(SendSms):
 while 1:
     system("cls||clear")
     print("""{}
-     ______                         _     
-    |  ____|                       | |    
-    | |__   _ __   ___  _   _  __ _| |__  
-    |  __| | '_ \ / _ \| | | |/ _` | '_ \ 
-    | |____| | | | (_) | |_| | (_| | | | |
-    |______|_| |_|\___/ \__,_|\__, |_| |_|
-                               __/ |      
-                              |___/      
+
+           𝙍𝙀𝘿 𝙃𝘼𝘾𝙆 𝘼𝙍𝙎𝙞𝙑
+
+           𝙎𝙈𝙎 𝘽𝙊𝙈𝘽𝙀𝙍 𝙐𝙇𝙏𝙍𝘼 𝙑𝟭.𝟬
     
-    Sms: {}           {}by {}@tingirifistik\n  
+    Sms: {}           {}by {}@redhackarsiv\n  
     """.format(Fore.LIGHTCYAN_EX, len(servisler_sms), Style.RESET_ALL, Fore.LIGHTRED_EX))
     try:
         menu = (input(Fore.LIGHTMAGENTA_EX + " 1- SMS Gönder (Normal)\n\n 2- SMS Gönder (Turbo)\n\n 3- Çıkış\n\n" + Fore.LIGHTYELLOW_EX + " Seçim: "))
