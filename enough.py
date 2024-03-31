@@ -16,11 +16,11 @@ while 1:
     system("cls||clear")
     print("""{}
 
-           𝙍𝙀𝘿 𝙃𝘼𝘾𝙆 𝘼𝙍𝙎𝙞𝙑
+           𝙌𝙐𝘼𝙉𝙏𝙐𝙈 𝙃𝘼𝘾𝙆
 
            𝙎𝙈𝙎 𝘽𝙊𝙈𝘽𝙀𝙍 𝙐𝙇𝙏𝙍𝘼 𝙑𝟭.𝟬
     
-    Sms: {}           {}by {}@redhackarsiv\n  
+    Sms: {}           {}by {}@senseiWP\n  
     """.format(Fore.LIGHTCYAN_EX, len(servisler_sms), Style.RESET_ALL, Fore.LIGHTRED_EX))
     try:
         menu = (input(Fore.LIGHTMAGENTA_EX + " 1- SMS Gönder (Normal)\n\n 2- SMS Gönder (Turbo)\n\n 3- Çıkış\n\n" + Fore.LIGHTYELLOW_EX + " Seçim: "))
